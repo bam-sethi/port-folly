@@ -1,0 +1,71 @@
+body{
+  font-family: "HelveticaNeue-Light";
+    background: white;
+}
+/*////// HEADER //////*/
+header{
+  padding: 0 5px 0 0;
+  background-color: red;
+  -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+}
+
+header:hover{
+  background-color: blue;
+}
+
+h1::first-letter{
+  font-weight: bold;
+  font-size: 1em;
+}
+/*//// NAV BOX /////*/
+.box{
+  width: 15%;
+  display: inline-block;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
+
+.box:before{
+    content: "";
+    display: block;
+    padding-top: 100%;
+}
+
+.box:hover{
+  color: black;
+  background-color: white;
+  border-bottom: 1px solid black;
+}
+
+.first-char{
+  font-size: 2em;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+@media screen and (min-width:768px) {
+  body{
+    background: ivory;
+  }
+/*  .box{
+    max-width: 15%;
+    max-height: 15%;
+  }*/
+
+}
+
+/*////// ABOUT ME ///////*/
+
+.container{
+  display: none;
+}
+div.content{
+  background-color: ivory;
+  color: black;
+  width: 75%;
+}
