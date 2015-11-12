@@ -1,8 +1,8 @@
-// $(document).ready(function(){
+$(document).ready(function(){
 
-//   $("#about").on("click", function(){
-//     $(".container").slideToggle();
-//   });
+  $("#email").on("click", function(){
+    $("#email-add").slideToggle("slow")
+  });
 
 
-// });
+});

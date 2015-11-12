@@ -1,97 +1,133 @@
 body{
   font-family: "HelveticaNeue-Light";
+  color: black;
   background: white;
+}
+
+/*/HEAD/*/
+header#home-head{
+  font-size: 2em;
+  margin: 25% 0 5% 0;
   color: black;
 }
+a#home-head{
+  color: black;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+.projects, .contact{
+  color: black;
+}
+.contact:hover{
+  color: blue;
+}
+.projects:hover{
+  color: red;
+}
+
+@media (min-width: 1000px){
+header#home-head{
+    width: 40%;
+    margin: 0 auto;
+    font-size: 3em;
+  }
+  
+}
+
+
+/*/CONTACT/*/
+#contact-header{
+  font-size: 2em;
+  display: inline-block;
+}
+.contact-container{
+  font-size: 1.5em;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#email{
+  cursor: pointer;
+}
+
+#email-add{
+  display:none;
+  font-size: 1.5em;
+  padding: 0;
+  margin:0 0 10px 0;
+  cursor: auto;
+}
+
 ul{
   list-style: none;
 }
-/*////// HEADER //////*/
-header{
-  padding: 0 5px 0 0;
-  background-color: red;
-  -webkit-transition: background-color 2s ease-out;
-  -moz-transition: background-color 2s ease-out;
-  -o-transition: background-color 2s ease-out;
-  transition: background-color 2s ease-out;
+.contact-deets{
+  color: black;
+  text-decoration: none;
 }
-
-.circle{
-  border-radius: 50%;
-  border: 5px solid black;
-  width: 200px;
-  height: 200px;
-  display: inline-block;
-  text-align: center;
-  vertical-align: middle;
-  line-height: 150px;
+.contact-deets:hover{
+  color: gold;
 }
-#about{
-  background-color: red;
-}
-
-
-
-
-
-header:hover{
-  background-color: blue;
-}
-
-h1::first-letter{
-  font-weight: bold;
+#projectlink, #contactlink, #homelink{
+  text-decoration: none;
   font-size: 1em;
-}
-/*//// NAV BOX /////*/
-.box{
-  width: 15%;
-  display: inline-block;
-  background-color: black;
-  color: white;
-  border: 1px solid white;
-}
-
-.box:before{
-    content: "";
-    display: block;
-    padding-top: 100%;
-}
-
-.box:hover{
   color: black;
-  background-color: white;
-  border-bottom: 1px solid black;
+}
+#homelink:hover{
+  color: blue;
 }
 
-.first-char{
-  font-size: 2em;
-  padding: 0;
-  margin: 0;
-  text-align: center;
+#contactlink:hover{
+  color: red;
 }
 
-@media screen and (min-width:768px) {
-  body{
-    background: ivory;
+#projectlink:hover{
+  color: lime;
+}
+
+@media (min-width: 1000px) {
+  .contact-container{
+    width: 40%;
+    margin: 0 auto;
+    font-size: 2em;
   }
-/*  .box{
-    max-width: 15%;
-    max-height: 15%;
-  }*/
-
+  #contact-header{
+    font-size: 2em;
+  }
+  .homelink, #homelink{
+    margin-right: 0px;
+  }
 }
 
-/*////// ABOUT ME ///////*/
+/*/ PROJECTS /*/
 
-/*.container{
-  display: none;
-}*/
-div.content{
-  background-color: ivory;
+#project-header{
+  font-size: 2em;
+  display: inline-block;
+}
+
+.project-container{
+  font-size: 1.5em;
+  width: 80%;
+  padding: 10px 0 0 0 ;
+  margin: 0 auto;
+}
+
+.project-divs{
+  padding: 10px;
   color: black;
-  width: 75%;
 }
 
-img{
-  width: 12%;
+.project-title:hover{
+  color: gold;
 }
+
+.contact-container, .project-container, #home-head{
+  background-color: ivory;
+}
+
+
+
+
+
+
