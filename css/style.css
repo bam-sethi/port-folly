@@ -15,7 +15,7 @@ a#home-head{
   font-weight: bold;
   font-size: 1.1em;
 }
-.projects, .contact{
+.projects, .contact, .aboutme{
   color: black;
 }
 .contact:hover{
@@ -24,7 +24,9 @@ a#home-head{
 .projects:hover{
   color: red;
 }
-
+.aboutme:hover{
+  color: gold;
+}
 @media (min-width: 1000px){
 header#home-head{
     width: 40%;
@@ -68,7 +70,7 @@ ul{
 .contact-deets:hover{
   color: gold;
 }
-#projectlink, #contactlink, #homelink{
+#projectlink, #contactlink, #homelink, #aboutlink {
   text-decoration: none;
   font-size: 1em;
   color: black;
@@ -83,6 +85,9 @@ ul{
 
 #projectlink:hover{
   color: lime;
+}
+#aboutlink:hover{
+  color: gold;
 }
 
 @media (min-width: 1000px) {
@@ -125,7 +130,10 @@ ul{
 .contact-container, .project-container, #home-head{
   background-color: ivory;
 }
-
+/*/ ABOUT ME /*/
+.about-me-text{
+  font-size: 2em;
+}
 
 
 
