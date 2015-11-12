@@ -1,6 +1,10 @@
 body{
   font-family: "HelveticaNeue-Light";
-    background: white;
+  background: white;
+  color: black;
+}
+ul{
+  list-style: none;
 }
 /*////// HEADER //////*/
 header{
@@ -11,6 +15,24 @@ header{
   -o-transition: background-color 2s ease-out;
   transition: background-color 2s ease-out;
 }
+
+.circle{
+  border-radius: 50%;
+  border: 5px solid black;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 150px;
+}
+#about{
+  background-color: red;
+}
+
+
+
+
 
 header:hover{
   background-color: blue;
@@ -61,11 +83,15 @@ h1::first-letter{
 
 /*////// ABOUT ME ///////*/
 
-.container{
+/*.container{
   display: none;
-}
+}*/
 div.content{
   background-color: ivory;
   color: black;
   width: 75%;
+}
+
+img{
+  width: 12%;
 }

@@ -1,8 +1,8 @@
-$(document).ready(function(){
+// $(document).ready(function(){
 
-  $("#about").on("click", function(){
-    $(".container").slideToggle();
-  });
+//   $("#about").on("click", function(){
+//     $(".container").slideToggle();
+//   });
 
 
-});
+// });
