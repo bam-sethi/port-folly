@@ -29,7 +29,7 @@ a#home-head{
 }
 @media (min-width: 1000px){
 header#home-head{
-    width: 40%;
+    width: 62.5%;
     margin: 0 auto;
     font-size: 3em;
   }
